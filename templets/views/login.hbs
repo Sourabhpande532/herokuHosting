@@ -1,0 +1,72 @@
+
+
+<html lang="en">
+<head>
+   {{>headerLinks}}
+   <style>
+@media (max-width: 768px) {
+   
+    
+
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 100%;
+  padding: 50px 70px 70px 71px;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+}
+   </style>
+   </head>
+<body>
+
+  {{>navbar}}
+
+
+
+
+
+<html>
+  
+<body id="LoginForm">
+<div class="container">
+<h1 class="form-heading">login Form</h1>
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+   <h2>Admin Login</h2>
+   <p>Please enter your email and password</p>
+   </div>
+    <form id="Login" action="/login" method="post">
+
+        <div class="form-group">
+
+
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" name="emaill">
+
+        </div>
+
+        <div class="form-group">
+
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="passwordd">
+
+        </div>
+        <div class="forgot">
+        <a href="reset.html">Forgot password?</a>
+</div>
+        <button type="submit" class="btn btn-primary">Login</button>
+
+    </form>
+    </div>
+<p class="botto-text"> Designed by Saurabh @pande</p>
+</div></div></div>
+
+
+</body>
+</html>
+{{>footer}}
